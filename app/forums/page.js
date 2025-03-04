@@ -1,36 +1,43 @@
 import React from 'react'
 import Image from 'next/image';
-
+import { Button } from "@/components/ui/button"
+import Link from 'next/link';
 const topics = [
   {
     text: "Python",
     img: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
     desc: "Let's discuss everything related to Python",
+     slug : "Python-chat-new "
   },
   {
     text: "JavaScript",
     img: "/javascript.png",
     desc: "Learn And Share The JavaScript Knowledge",
+    slug : "JavaScript-chat-new "
   },
   {
     text: "React",
     img: "/react.png",
     desc: "Build Amazing Interfaces With React",
+     slug : "React-chat-new "
   },
   {
     text: "Node.js",
     img: "/nodejs.png",
     desc: "Explore server-side JavaScript with Node.js",
+     slug : "Node-chat-new "
   },
   {
     text: "Data Science",
     img: "/datascience.png",
     desc: "Discuss data analysis and data visualization",
+     slug : "DS-chat-new "
   },
   {
     text: "Cloud Computing",
     img: "/cloud.png",
     desc: "Learn about cloud platforms And Many More",
+     slug : "Cloud-chat-new "
   },
 ];
 const forums = () => {
@@ -44,7 +51,9 @@ const forums = () => {
               <Image src={topic.img} alt='topic.desc' width={74} height={74} className=''/>
               <h2 className='text-2xl'>{topic.text}</h2>
               <p className='px-3'>{topic.desc}</p>
-              <button className='px-4 border border-state-300 py-2'>Discuss Now</button>
+              <Link href= {`/forum/${topic.slug}`}>
+              <Button className='px-4 border border-state-300 py-2'>Discuss Now</Button>
+              </Link>
               </div>
           })
         }

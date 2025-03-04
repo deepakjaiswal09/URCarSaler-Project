@@ -1,7 +1,10 @@
-// components/Navbar.js
+"use client"
 import Link from 'next/link';
 import { UserButton } from '@clerk/nextjs';
+// import { useUser } from '@clerk/nextjs';
 export default function Navbar() {
+  // const user = useUser()
+  // console.log(user.user?.id)
   return (
     <nav className="bg-gray-800 p-4">
       <div className="container mx-auto flex justify-between items-center">
