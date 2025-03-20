@@ -17,10 +17,10 @@ export default function Home() {
         <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-3xl mx-auto"> {/* Centering content */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-6">
-              Thetachat: Connect and Collaborate
+              CarSaler : Explore, Bid & Get Your's !
             </h1>
             <p className="mt-4 text-lg sm:text-xl md:text-2xl text-gray-300">
-              Experience real-time communication with secure group chats, private messaging, and seamless collaboration. Join the future of instant connection.
+              Experience real-time car saling experience and get a car on your doorstep !
             </p>
           </div>
           <div className="mt-12 flex justify-center">
