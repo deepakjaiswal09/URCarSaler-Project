@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo/Brand */}
         <Link href="/" className="text-white font-bold text-xl ml-10 ">
-         Theta Chat
+         URCar Saler
         </Link>
 
         {/* Navigation Links */}

@@ -3,12 +3,12 @@ import Image from 'next/image';
 import { Button } from "@/components/ui/button"
 import Link from 'next/link';
 const topics = [
-  // {
-  //   text: "Python",
-  //   img: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
-  //   desc: "Let's discuss everything related to Python",
-  //   slug : "Python-chat-new "
-  // },
+  {
+    text: "Python",
+    img: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+    desc: "Let's discuss everything related to Python",
+    slug : "Python-chat-new "
+  },
   {
     text: "JavaScript",
     // img: "/javascript.png",
