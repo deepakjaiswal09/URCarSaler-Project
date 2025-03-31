@@ -26,7 +26,7 @@ await serverClient.upsertUser({id : user.data.id})
     },
   })
   // give access to this user for all chats
-  const slugs = ["Python-chat-new","JavaScript-chat-new","React-chat-new","Node-Chat-new","DS-chat-new","Cloud-Chat-new"]
+  const slugs = ["Python-chat-new","JavaScript-chat-new","React-chat-new","Node-chat-new","DS-chat-new","Cloud-chat-new"]
   slugs.forEach(async (item)=>{
     const channel = serverClient.channel('messaging', item, {
         image: 'https://getstream.io/random_png/?name=react',
