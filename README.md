@@ -68,7 +68,7 @@ You can watch the tutorial here:
 For any questions, collaborations, or feedback, please reach out:  
 
 **Deepak Jaiswal**  
-📧 deepakjaiswal09@example.com  
+📧 deepakjaiswal9238@example.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/deepakjaiswal09/)
 
 ---
